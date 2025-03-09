@@ -3,7 +3,6 @@ import {
   Button,
   Text,
   Box,
-  useColorModeValue,
   HStack
 } from '@chakra-ui/react';
 import { Call } from '../types/call';
