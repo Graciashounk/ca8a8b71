@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: true, // Listen on all available network interfaces
-    port: parseInt(process.env.PORT || '3000'), // Use PORT from environment or default to 3000
+    port: Number(process.env.PORT) || 3000, // Use PORT from environment or default to 3000
     proxy: {
       '/api': {
         target: 'https://ca8a8b71.onrender.com',
@@ -18,7 +18,7 @@ export default defineConfig({
   },
   base: '/',
   preview: {
-    port: parseInt(process.env.PORT || '3000'), // Also set for preview mode
+    port: Number(process.env.PORT) || 3000, // Also set for preview mode
     host: true
   }
 })
