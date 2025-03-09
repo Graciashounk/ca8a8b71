@@ -1,11 +1,9 @@
-import { Container, Grid, GridItem, Tabs, TabList, Tab, TabPanels, TabPanel, Box } from '@chakra-ui/react';
-import { FaPhone, FaAddressBook, FaCalculator, FaCog } from 'react-icons/fa';
-import { CallList } from './components/CallList';
-import { CallDetail } from './components/CallDetail';
+import { Container,Tabs, TabList, Tab, TabPanels, TabPanel} from '@chakra-ui/react';
+
 import { Contacts } from './components/Contacts';
 import { Numpad } from './components/Numpad';
 import { Settings } from './components/Settings';
-import { CallsProvider, useCallsContext } from './context/CallsContext';
+import { CallsProvider} from './context/CallsContext';
 import { ContactsProvider } from './context/ContactsContext';
 import { theme } from './theme';
 import { ChakraProvider } from '@chakra-ui/react';
