@@ -14,7 +14,8 @@ export default defineConfig({
         secure: true,
         rewrite: (path) => path.replace(/^\/api/, '')
       }
-    }
+    },
+    allowedHosts: ['ca8a8b71.onrender.com']
   },
   base: '/',
   preview: {
