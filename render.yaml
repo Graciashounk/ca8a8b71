@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: speer-frontend
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run preview
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: NODE_ENV
+        value: production
+      - key: VITE_API_URL
+        value: https://ca8a8b71.onrender.com 
