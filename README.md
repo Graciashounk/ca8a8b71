@@ -47,7 +47,7 @@ A modern React application for managing call activities, contacts, and communica
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/Graciashounk/ca8a8b71.git)
 cd frontend
 ```
 
