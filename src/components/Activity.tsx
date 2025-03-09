@@ -1,5 +1,4 @@
 import {
-  VStack,
   Grid,
   GridItem,
   Box,
@@ -26,7 +25,6 @@ export const Activity = () => {
   const {
     calls,
     selectedCall,
-    view,
     toggleArchiveCall,
     archiveAllCalls,
     unarchiveAllCalls,
