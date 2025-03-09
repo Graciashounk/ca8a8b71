@@ -6,8 +6,7 @@ import {
   IconButton,
   useColorModeValue,
   HStack,
-  Textarea,
-  Button
+  Textarea
 } from '@chakra-ui/react';
 import { FaArchive, FaInbox, FaPhone, FaPhoneSlash } from 'react-icons/fa';
 import { Call } from '../types/call';
