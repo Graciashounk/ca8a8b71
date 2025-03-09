@@ -7,6 +7,7 @@ export interface Call {
   timestamp: string;
   isArchived: boolean;
   notes?: string;
+  source?: 'numpad' | 'contacts' | 'activity';
 }
 
 export interface CallsState {
